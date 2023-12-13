@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Container_Vervoer.Classes
 {
-    internal class Container
+    public class Container
     {
     }
 }
