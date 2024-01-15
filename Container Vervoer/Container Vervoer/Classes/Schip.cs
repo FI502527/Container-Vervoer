@@ -8,10 +8,10 @@ namespace Container_Vervoer.Classes
 {
     public class Schip
     {
-        private List<Rij> Rijen = new List<Rij>();
-        private int MaxGewicht { get; }
-        private int Breedte { get; }
-        private int Lengte { get; }
+        public List<Rij> Rijen = new List<Rij>();
+        public int MaxGewicht { get; }
+        public int Breedte { get; }
+        public int Lengte { get; }
         public Schip(int maxGewicht, int breedte, int lengte)
         {
             MaxGewicht = maxGewicht;
