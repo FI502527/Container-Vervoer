@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Container_Vervoer
+namespace ContainerVervoer_Tim
 {
     public enum Type
     {
-        Normaal,
         Waardevol,
-        Gekoeld
+        Gekoeld,
+        Normaal
     }
 }
